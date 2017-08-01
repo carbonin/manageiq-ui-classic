@@ -115,8 +115,7 @@ ManageIQ.qe.gtl = {
         click: function() {
           this.onItemClicked(item, document.createEvent('Event'));
           this.$scope.$digest();
-        }.bind(this),
-        item,
+        }.bind(this)
       };
     }.bind(this);
     return {
